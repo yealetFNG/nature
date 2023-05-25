@@ -1,0 +1,297 @@
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+            <style>
+                h1 {
+                    font-family: 'Roboto', sans-serif;
+                }
+
+                h3 {
+                    font-family: 'Roboto', sans-serif;
+                }
+
+                h2{
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 22px;
+                }
+
+                h5 {
+                    margin-top: 10px;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 12px;
+                }
+
+                body {
+                    background-color: #424447;
+                    margin: 0;
+                }
+
+                .light-mode * {
+                    background-color: rgb(220, 220, 220);
+                    color: black;
+                }  
+                .navbar {
+                    background-color: #2e3033;
+                    height: 25px;
+                    width: 100%;
+                    border-bottom: solid #65676b;
+                    font-family: "Segoe UI";
+                    text-align: center
+                }
+                
+                .navbar ul {
+                    list-style-type: none;
+                    margin: 0;
+                    padding: 0;
+                }
+                
+                .navbar li {
+                    width: 50%;
+                    float: left;
+                }
+                
+                .navbar li {
+                    float: center;
+                }
+                
+                .navbar a {
+                    font-family: 'Roboto', sans-serif;
+                    display: block;
+                    width: 100%;
+                    font-size: 20px;
+                    color: white
+                }
+                
+                .navbar a:link, .navbar a:visited {
+                    color: white;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    text-align: center;
+                }
+                
+                .navbar a:hover, .navbar a:active {
+                    background-color: #373b44;
+                }
+
+                .homepage {
+                    margin-top: 10px;
+                    margin-left: 15px;
+                    color: white;
+                    font-family: "Segoe UI";
+                }
+
+                .motivepage {
+                    height: 100%;
+                    width: 45%;
+                    margin-top: 10px;
+                    margin-left: 32px;
+                    margin-right: 32px;
+                    margin-bottom: 2px;
+                    border: 4px solid #65676b;
+                    border-radius: 5px;
+                    color: white;
+                    background-color: #56585b;
+                    font-family: "Segoe UI";
+                }
+
+                .motivepage h2{
+                    text-align: center
+                }
+
+                .motivepage h4{
+                    text-align: center
+                }
+                
+                .light-mode {
+                    background-color: #e5e5e5;
+                }
+
+                .light-mode .motivepage{
+                    background-color:#e5e5e5;
+                    color: black;
+                    border: 4px solid rgb(198, 198, 198);
+                }
+
+                .light-mode .navbar{
+                    color: black;
+                    background-color: #e5e5e5;
+                }
+
+                .light-mode .motivepage h2{
+                    color: black;
+                    background-color: #e5e5e5;
+                }
+
+                .light-mode .motivepage h4{
+                    color: black;
+                    background-color: #e5e5e5;
+                }
+
+                .light-mode .motivepage h5{
+                    color: black;
+                    background-color: #e5e5e5;
+                }
+
+                .light-mode .homepage h1{
+                    color: black;
+                    background-color: #e5e5e5;
+                }
+
+                .light-mode .homepage h3{
+                    color: black;
+                    background-color: #e5e5e5;
+                }
+
+                .light-mode .homepage{
+                    color: black;
+                    background-color: #e5e5e5;
+                }
+
+                .light-mode .motivepage button{
+                    color: white;
+                    background-color: black;
+                }
+
+                .light-mode .navbar a{
+                    color: black;
+                    background-color: #e5e5e5;
+                }
+                
+                
+            </style>
+
+            <title>Motives</title>
+        </head>
+
+        <body>
+            <script>
+                function myFunction() {
+                    var element = document.body;
+                    element.classList.toggle("light-mode");
+                }
+            </script>
+
+            <div class="navbar">
+                <ul>
+                    <li><a href="google.com">Home</a></li>
+                    <li><a href="google.com">Motives</a></li></ul>
+            </div>
+
+            <div class="homepage" id="homepage">
+                <button 
+                onclick="myFunction()"
+                style="float: right; height: 20px; width: 19%; margin: 5px; background-color: whitesmokel; border: 0px solid white; border-radius: 8px;">
+                    Toggle Light Mode
+                </button>
+
+                <h1>
+                    Home
+                </h1>
+
+                <h3>
+                    We look to bring you powerful, empowering, and inspirational motives that will help push you further through life. 
+                </h3>
+            </div>
+
+            <div class="motivepage" style="float: left;">
+                <h2 style="margin-left: 8px; margin-bottom: 0px;">
+                    Sharpen before chopping
+                </h2>
+                <h4 style="margin-left: 8px; margin-top: 2px; margin-bottom: 0px;">
+                    by @deltos.brand
+                </h4>
+                <h5 style="margin-left: 8px;">
+                    Lincoln said, "If I had 8 hours to chop down a tree, I'd spend the first 6 sharpening my axe.". Something I didn't realize for a long time and I just realized recently if you want to win the game, you have to play the game. Here is something that happened, I was working on a lot of different things and a lot of it wasn't going my way, but when I worked on myself, a lot of things folded into place. Think about the challenges you have in life like its a tree, and yourself as the axe, how are you going to cut it if you're dull? So my advice is that you should work on your mindset, work on your happiness, work on finding a purpose and all the other things in your life will fall into place.
+                </h5>
+            </div>
+
+            <div class="motivepage" style="float: right">
+                <h2 style="margin-left: 8px; margin-bottom: 0px;">
+                    100%
+                </h2>
+                <h4 style="margin-left: 8px; margin-top: 2px; margin-bottom: 0px;">
+                    by Steve Harvy
+                </h4>
+                <h5 style="margin-left: 8px;">
+                    You done survived every fucking day you ever had, you survived every hater, you survived all the evictions, you survived the firings, you survived all the tell "You know we aint hiring", you survived all the trouble you ever been in, your survival rate is 100%.
+                </h5> 
+            </div>
+
+            <div class="motivepage" style="float: right">
+                <h2 style="margin-left: 8px; margin-bottom: 0px;">
+                    Turn your back
+                </h2>
+                <h4 style="margin-left: 8px; margin-top: 2px; margin-bottom: 0px;">
+                    by Lion King
+                </h4>
+                <h5 style="margin-left: 8px;">
+                    Look kid, bad things happen and you can't do anything about it, right? Wrong. When the world turns it back on you, you turn your back on the world!
+                </h5> 
+            </div>
+
+            <div class="motivepage" style="float: left">
+                <h2 style="margin-left: 8px; margin-bottom: 0px;">
+                    Timing
+                </h2>
+                <h4 style="margin-left: 8px; margin-top: 2px; margin-bottom: 0px;">
+                    by unknown
+                </h4>
+                <h5 style="margin-left: 8px;">
+                    When it feels scary to jump in, that is exactly when you jump. Otherwise, you end up staying in the same place your whole life.
+                </h5> 
+            </div>
+
+            <div class="motivepage" style="float: right">
+                <h2 style="margin-left: 8px; margin-bottom: 0px;">
+                    UP
+                </h2>
+                <h4 style="margin-left: 8px; margin-top: 2px; margin-bottom: 0px;">
+                    by Sing
+                </h4>
+                <h5 style="margin-left: 8px;">
+                    You know what's great about hitting rock button, Eddie? There's only one way left to go, and thats up!
+                </h5> 
+            </div>
+
+            <div class="motivepage" style="float: left">
+                <h2 style="margin-left: 8px; margin-bottom: 0px;">
+                    First Life
+                </h2>
+                <h4 style="margin-left: 8px; margin-top: 2px; margin-bottom: 0px;">
+                    by Confucious
+                </h4>
+                <h5 style="margin-left: 8px;">
+                    Every man has two lives, and the second starts when he realizes he has just one.
+                </h5> 
+            </div>
+
+            <div class="motivepage" style="float: right">
+                <h2 style="margin-left: 8px; margin-bottom: 0px;">
+                    Past
+                </h2>
+                <h4 style="margin-left: 8px; margin-top: 2px; margin-bottom: 0px;">
+                    by Lion King
+                </h4>
+                <h5 style="margin-left: 8px;">
+                    *smacked with stick* Ow! Jeez! What was that for?; It doesn't matter. It's in the past; Yeah but it still hurts; Oh, yes. THe past can hurt, but the way I see it, you can either run from it or learn from it. *swings stick* *dodges* You see!
+                </h5> 
+            </div>
+
+            <div class="motivepage" style="float: left">
+                <h2 style="margin-left: 8px; margin-bottom: 0px;">
+                    Sun will rise
+                </h2>
+                <h4 style="margin-left: 8px; margin-top: 2px; margin-bottom: 0px;">
+                    by Kevin Hart
+                </h4>
+                <h5 style="margin-left: 8px;">
+                    Sun don't stop for nobody man, sun don't fucking stop, sun gonna be up in the morning regardless, that sun is gonna be up in the morning regardless. Regardless of how I fucking feel and how depressed I am, the sun is gonna fucking shine in the morning, and at night time, the moon gonna be there and you gonna look up and these days keep going by. So you gonna let the days go by and you wasted a year doing what? Or do you just pick it up? Alright ya know, gotta figure it out, made some mistakes, life goes on. Let me figure out life from this point.
+                </h5> 
+            </div>
+        </body>
+    </html>
